@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B4FF</color>
+    <color name="colorPrimaryDark">#00B4FF</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="secondaryColor">#55DE94</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="signBtnRed">#55DE94</color>
+
+
+<!--    forgot password color-->
+    <color name="forgot_password">#3EB255</color>
+    <color name="resetBtn">#FF0000</color>
+
+    <color name="successColor">#11A10C</color>
+    <color name="errorColor">#F56920</color>
+
+    <color name="colorYellow">#ffff00</color>
+    <color name="colorDarkRed">#ce0000</color>
+
+<!--    addresses color-->
+    <color name="addNew">#21A192</color>
+    <color name="deliverHere"></color>
+
+    <color name="recyclerViewColor">#E8E8E8</color>
+</resources>

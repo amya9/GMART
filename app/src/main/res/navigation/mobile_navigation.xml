@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/main_nav_home">
+
+    <fragment
+        android:id="@+id/main_nav_home"
+        android:name="com.example.foodtruck.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/main_nav_my_order"
+        android:name="com.example.foodtruck.ui.myOrder.MyOrderFragment"
+        android:label="My Orders"
+        tools:layout="@layout/fragment_my_order" />
+
+    <fragment
+        android:id="@+id/main_nav_my_reward"
+        android:name="com.example.foodtruck.ui.myReward.MyRewardFragment"
+        android:label="My Rewards"
+        tools:layout="@layout/fragment_my_reward" />
+
+    <fragment
+        android:id="@+id/main_nav_my_cart"
+        android:name="com.example.foodtruck.ui.myCart.MyCartFragment"
+        android:label="My Cart"
+        tools:layout="@layout/fragment_my_cart" />
+
+    <fragment
+        android:id="@+id/main_nav_my_wishList"
+        android:name="com.example.foodtruck.ui.myWishlist.MyWishlistFragment"
+        android:label="My WishList"
+        tools:layout="@layout/fragment_my_wishlist" />
+
+    <fragment
+        android:id="@+id/main_nav_my_account"
+        android:name="com.example.foodtruck.ui.myAccount.MyAccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/main_action_search"
+        android:name="com.example.foodtruck.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/main_action_notification"
+        android:name="com.example.foodtruck.ui.notification.NotificationFragment"
+        android:label="My WishList"
+        tools:layout="@layout/fragment_my_wishlist" />
+
+</navigation>
